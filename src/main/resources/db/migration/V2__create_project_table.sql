@@ -1,10 +1,10 @@
 CREATE TABLE Project (
-    Proj_Id smallint PRIMARY KEY,
-    Proj_Name varchar(100),
-    Proj_Value decimal(12,2),
-    List_Tech text,
-    Client_Id smallint,
-    Curr_Status enum('inactive', 'active', 'completed'),
-    Employee_Id smallint,
-    Proj_Creation DATE
+    proj_id smallint PRIMARY KEY,
+    proj_name varchar(100),
+    proj_value decimal(12,2),
+    list_tech text,
+    client_id smallint,
+    curr_status enum('inactive', 'active', 'completed'),
+    employee_id smallint,
+    proj_creation DATE
 );
