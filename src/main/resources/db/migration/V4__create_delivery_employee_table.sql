@@ -19,20 +19,16 @@ INSERT INTO delivery_employee(name, salary, bank_acc_num, ni_num, comm_rate, rol
         'PH123456L',
         '15.00',
         3
-    );
-
-INSERT INTO delivery_employee(name, salary, bank_acc_num, ni_num, comm_rate, role_id)
-    VALUES(
+    ),
+    (
         'Tom Phan Wayne',
         '111224.21',
         '12345678912347802345',
         'PH127896L',
         '15.00',
         3
-    );
-
-INSERT INTO delivery_employee(name, salary, bank_acc_num, ni_num, comm_rate, role_id)
-    VALUES(
+    ),
+    (
         'Katie McAllister Bartholomew',
         '1112223.21',
         '1234567891234560',
