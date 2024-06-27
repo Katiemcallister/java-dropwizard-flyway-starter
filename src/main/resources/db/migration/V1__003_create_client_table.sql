@@ -1,8 +1,8 @@
 CREATE TABLE `Client` (
-                            `Client_id` smallint,
-                            `Name` varchar(255),
-                            `Address` varchar(200),
-                            `Phone_Num` varchar(64),
-                            `Proj_id` smallint
+                            `client_id` smallint primary key auto_increment,
+                            `name` varchar(255),
+                            `address` varchar(200),
+                            `phone_num` varchar(64),
+                            `proj_id` smallint
 
 );
