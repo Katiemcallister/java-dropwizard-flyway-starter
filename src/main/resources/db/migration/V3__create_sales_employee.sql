@@ -10,31 +10,22 @@ CREATE TABLE sales_employee(
 
 
 INSERT INTO sales_employee(name, salary, bank_acc_num, ni_num, comm_rate, role_id)
-    VALUES(
-        'Gerard McLean',
+    VALUES
+        ('Gerard McLean',
         '111222.21',
         '123456789123456780',
         'PH123456L',
         '30.00',
-        2
-    );
-
-INSERT INTO sales_employee(name, salary, bank_acc_num, ni_num, comm_rate, role_id)
-    VALUES(
-        'Tom Phan',
+        2),
+        ('Tom Phan',
         '1112224.21',
         '1234567891234567802345',
         'PH127896L',
         '30.00',
-        2
-    );
-
-INSERT INTO sales_employee(name, salary, bank_acc_num, ni_num, comm_rate, role_id)
-    VALUES(
-        'Katie McAllister',
-        '11122223.21',
-        '123456789123456780',
-        'PH123456L',
-        '30.00',
-        1
-    );
+        2),
+        ('Katie McAllister',
+         '11122223.21',
+         '123456789123456780',
+         'PH123456L',
+         '30.00',
+         1);
