@@ -4,10 +4,10 @@ CREATE TABLE proj_employee (
     PRIMARY KEY (proj_id, employee_id)
 );
 
-INSERT INTO TABLE proj_employee 
+INSERT INTO proj_employee 
     (proj_id, employee_id)
 VALUES
     (1, 1),
     (2, 3),
-    (3, 2)
+    (3, 2);
 
