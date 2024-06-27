@@ -5,7 +5,6 @@ CREATE TABLE project (
     list_tech text,
     client_id smallint,
     curr_status enum('inactive', 'active', 'completed'),
-    employee_id smallint,
     proj_creation DATE
 );
 
